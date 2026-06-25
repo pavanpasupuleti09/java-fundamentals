@@ -6,6 +6,7 @@ public class EcommerceAppMenu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("-------------------------");
+        System.out.println("-------------------------");
         System.out.println("Welcome To E-commerce App");
         System.out.println("-------------------------");
         System.out.println("Enter the Menu");
