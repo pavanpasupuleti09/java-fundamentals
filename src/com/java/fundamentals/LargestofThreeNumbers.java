@@ -29,6 +29,6 @@ public class LargestofThreeNumbers {
 
         sc.close();
     }
-}1
+}
 
 
