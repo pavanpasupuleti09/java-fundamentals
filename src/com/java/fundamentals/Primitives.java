@@ -2,67 +2,36 @@ package com.java.fundamentals;
 
 public class Primitives {
     public static void main(String[] args) {
+        // BYTE
         byte age;
-        byte subject1Marks, subject2Marks, subject3Marks, subject4Marks;
-        byte discountPercentage;
-        byte rating;
-        age = 100 ;
-        subject1Marks = 98;
-        subject2Marks = 67;
-        subject3Marks = 79;
-        subject4Marks = 89;
-        System.out.println("Age: "+age);
-        System.out.println("subject 1 Marks: " + subject1Marks + ", subject 2 Marks: " + subject2Marks + ", subject 3 Marks: " + subject3Marks + ", subject 4 Marks: " + subject4Marks);
-        System.out.println("-------------------------------------");
-        System.out.println("subject 1 Marks: " + subject1Marks);
-        System.out.println("subject 2 Marks: " + subject2Marks);
-        System.out.println("subject 3 Marks: " + subject3Marks);
-        System.out.println("subject 4 Marks: " + subject4Marks);
-        System.out.println("--------------------------------------");
-        short totalMarks = 645;
-        short manufacturingYear = 2026;
-        short expiryDays = 180;
-        System.out.println("Manufacturing Year: " + manufacturingYear + ", Days in Expiry: " + expiryDays);
-        System.out.println("----------------------------------------");
-        /*
-        salary,rollNumber,otp,cityPopulation,pincode,
-        */
-        int salary = 100000;
-        int rollNumber = 522141161;
-        int cityPopulation = 10000000;
-        int pincode = 522647;
-        System.out.println("Salary: " + salary + "Roll number: " + rollNumber + "City Population" + cityPopulation + "Pincode: " + pincode);
-        System.out.println("-------------------------------------------------------");
-        // variables for long
-        // views, bankBalance, followers
-        long views = 10000000000L;
-        long bankBalance = 2000000000000L;
-        long followers = 50000000000000L;
-        System.out.println("Views: " + views +", Bank Balance: " + bankBalance + ", Followrs: " + followers);
-        System.out.println("---------------------------------------------------");
-        // variables for float
-        // height, pi, temperature etc
-        float height = 5.11f;
-        float pi = 2.54f;
-        float temperature = 43.7f;
-        System.out.println("Height: " + height + ", pi: " + pi + ", temperature: " + temperature );
-
-        double averagePrice;
-        averagePrice = 234234.432;
-        System.out.println("Average Price:" +averagePrice);
-
-        char gender, membership;
-        gender = 'M'; //mapped to ascii code=77
-        membership = 'G'; //mapped to ascii code=71
-        System.out.println("Gender:" +gender);
-        System.out.println("Membership:" +membership);
-
-        char ch = 97; //allowed since directly assigning ascii code
-        System.out.println(ch);
-
-        boolean loggedInStatus; //true/false (busy, meetinng, away, available)
-        loggedInStatus = true;
+        age = 54;
+        System.out.println(age);// here we print the data which in variable called age
+        System.out.println("AGE : " + age);// here we print the data along with a description
+        // SHORT
+        short otp;
+        short currentYear;
+        short yearOfPassedOut,yearOfJoining;
+        otp = 3245;
+        currentYear = 2026;
+        yearOfPassedOut = 2025;
+        yearOfJoining = 2021;
+        System.out.println("current year : " + currentYear);
+        System.out.println("Year of joining : " + yearOfJoining  +  " ,  Year of passedout : " + yearOfPassedOut);
+        System.out.println("OTP : " + otp);
+        // INT
+        int employeeId,salary;
+        employeeId = 12221;
+        salary = 45000;
+        System.out.println("Employee Id : " + employeeId);
+        System.out.println("Salary : " + salary);
+        // LONG
+        long employeeBankNumber,employeeAdharNumber;
+        employeeBankNumber = 656787898890990L;
+        employeeAdharNumber = 312478657816L;
+        System.out.println("Employee Bank : " + employeeBankNumber);
+        System.out.println("Employee Adhar : " + employeeAdharNumber);
     }
+
     }
 
 
