@@ -2,6 +2,7 @@ package com.java.fundamentals;
 
 public class Primitives {
     public static void main(String[] args) {
+     // INTEGERS
         // BYTE
         byte age;
         age = 54;
@@ -30,6 +31,34 @@ public class Primitives {
         employeeAdharNumber = 312478657816L;
         System.out.println("Employee Bank : " + employeeBankNumber);
         System.out.println("Employee Adhar : " + employeeAdharNumber);
+
+
+     // REALS
+        float discountPercentage;
+        discountPercentage = 10.6F;
+        double averagePrice ;
+        averagePrice = 2345.67;
+        System.out.println(discountPercentage);
+        System.out.println(averagePrice);
+
+     // CHAR
+        char gender;
+        char membership;
+        gender = 'M'; // maps to ASCII code 77
+        membership = 'G'; // maps to ASCII code 71
+        System.out.println("Gender : " + gender);
+        System.out.println("MemberShip : " + membership);
+        char ch1;
+        char ch2;
+        ch1 = 1;  // here we store the ascii value of 1
+        ch2 = '1';  // here we store the letter 1
+        System.out.println(ch1);
+        System.out.println(ch2);
+
+        // BOOlEAN
+        boolean isAvailable;
+        isAvailable = true;
+        System.out.println(isAvailable);
     }
 
     }
