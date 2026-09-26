@@ -14,7 +14,7 @@ public class IterativeStatements {
             }
             number++;
         }
-        System.out.println("Enter number : ");
+        System.out.println("Enter number  : ");
         int N1 = scanner.nextInt();
         for (int number1 = 1;number1 <=N1;number1++){
             if (number1%2 ==0)
