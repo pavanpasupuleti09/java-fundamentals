@@ -20,6 +20,19 @@ public class IterativeStatements {
             if (number1%2 ==0)
                 System.out.println(number1);
             }
+        System.out.print("Enter N: ");
+        int n = scanner.nextInt();
+
+        int sum = 0;
+
+        for (int i = 1; i <= n; i++) {
+
+            if (i % 2 == 0) {
+                sum = sum + i;
+            }
+        }
+
+        System.out.println("Sum of even numbers: " + sum);
 
         }
 
