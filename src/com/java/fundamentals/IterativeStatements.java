@@ -32,7 +32,7 @@ public class IterativeStatements {
             }
         }
 
-        System.out.println("Sum of even numbers: " + sum);
+        System.out.println("Sum of Even numbers: " + sum);
 
         }
 
