@@ -11,7 +11,8 @@ public class Primitives {
         // SHORT
         short otp;
         short currentYear;
-        short yearOfPassedOut,yearOfJoining;
+        short yearOfPassedOut;
+        short yearOfJoining;
         otp = 3245;
         currentYear = 2026;
         yearOfPassedOut = 2025;

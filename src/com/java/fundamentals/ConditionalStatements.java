@@ -13,11 +13,7 @@ public class ConditionalStatements {
             System.out.println("your not eligible to vote");
         }
         boolean isStockAvailable = true;
-        if (isStockAvailable){
-            System.out.println("stock is available ");
-        }else{
-            System.out.println("stock is not available ");
-        }
+        System.out.println("stock is available ");
 
     }
 }
