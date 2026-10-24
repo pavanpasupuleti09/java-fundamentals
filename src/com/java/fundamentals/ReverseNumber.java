@@ -13,7 +13,7 @@ public class ReverseNumber {
             number = number / 10;
         }
 
-        System.out.println("Reversed Number: " + reverse);
+        System.out.println("reversed number: " + reverse);
     }
 }
 
