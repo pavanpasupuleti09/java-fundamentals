@@ -16,7 +16,7 @@ public class MoveZerosToEnd {
         }
 
         // Fill remaining positions with zeros
-        while (index < numbers.length) {
+        while (index < numbers.length)  {
             numbers[index] = 0;
             index++;
         }
