@@ -12,7 +12,7 @@ public class EvenOddSum {
             if (number % 2 == 0) {
                 evenSum += number;
             } else {
-                oddSum += number;
+                oddSum += number ;
             }
         }
 
