@@ -16,7 +16,7 @@ public class EvenOddSum {
             }
         }
 
-        System.out.println("Sum of Even numbers: " + evenSum);
-        System.out.println("Sum of Odd numbers: " + oddSum);
+        System.out.println("Sum of Even Numbers: " + evenSum);
+        System.out.println("Sum of Odd Numbers: " + oddSum);
     }
 }
