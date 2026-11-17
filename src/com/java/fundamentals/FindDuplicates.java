@@ -5,7 +5,7 @@ public class FindDuplicates {
 
         int[] numbers = {10, 20, 30, 20, 40, 10, 50};
 
-        System.out.println("Duplicate Elements:");
+        System.out.println("Duplicate elements:");
 
         for (int i = 0; i < numbers.length; i++) {
             for (int j = i + 1; j < numbers.length; j++) {
