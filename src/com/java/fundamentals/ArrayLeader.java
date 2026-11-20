@@ -20,7 +20,7 @@ public class ArrayLeader {
             }
 
             if (isLeader) {
-                System.out.print(numbers[i] + " ");
+                System.out.print(numbers[i] + "  ");
             }
         }
     }
