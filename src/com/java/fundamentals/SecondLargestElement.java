@@ -7,7 +7,7 @@ public class SecondLargestElement {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter array size: ");
+        System.out.print("enter array size: ");
         int n = sc.nextInt();
 
         int[] arr = new int[n];
